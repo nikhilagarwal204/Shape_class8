@@ -1,0 +1,39 @@
+.ab {
+    display: block;
+    background-color: red;
+}
+
+.bd {
+    display: none;
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+    .ab {
+        display: none;
+        background-color: red;
+    }
+    
+    .bd {
+        display: block;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (min-width: 1536px) {
+    body {
+        background-color: white;
+    }
+}
